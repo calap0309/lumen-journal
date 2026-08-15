@@ -1,0 +1,43 @@
+:root {
+  --ink: #1c1914;
+  --muted: #5c564c;
+  --line: #d4cdc2;
+  --paper: #f3eee6;
+  --wash: #e8e0d4;
+  --sun: #f0a202;
+  --sun-deep: #d4890a;
+  --sky: #4a7c8c;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Figtree', sans-serif;
+  --ease: 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
