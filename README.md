@@ -2,6 +2,10 @@
 
 A quiet daily journal. Choose a mood, write one note, keep a streak — everything stays in your browser (`localStorage`).
 
+## Live site
+
+**https://calap0309.github.io/lumen-journal/**
+
 ## Run locally
 
 ```bash
@@ -20,3 +24,4 @@ npm run preview
 
 - React + TypeScript
 - Vite
+- GitHub Pages
