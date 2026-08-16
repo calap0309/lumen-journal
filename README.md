@@ -1,4 +1,4 @@
-# Lumen
+# Fetches
 
 A quiet daily journal. Choose a mood, write one note, keep a streak — everything stays in your browser (`localStorage`).
 
